@@ -4,46 +4,42 @@
 int main()
 {
     Stack stack(5);
-    std::cout << "Empty: " << stack.isEmpty() << std::endl;
-    stack.push('H');
-    stack.push('e');
-    stack.push('l');
-    stack.push('l');
-    stack.push('o');
-    std::cout << "Full: " << stack.isFull() << std::endl;
-    stack.push(' ');
-    stack.push(' ');
-    stack.push('W');
-    stack.push('o');
-    stack.push('r');
-    stack.push('l');
-    stack.push('d');
-    stack.push('!');
-    stack.show();
-    stack.pop();
-    stack.pop();
-    stack.pop();
-    stack.pop();
-    stack.pop();
-    stack.pop();
-    stack.pop();
-    stack.pop();
+    std::cout << "Empty: " << isEmpty(stack) << std::endl;
+    push(stack, 'H');
+    push(stack, 'e');
+    push(stack, 'l');
+    push(stack, 'l');
+    push(stack, 'o');
+    std::cout << "Full: " << isFull(stack) << std::endl;
+    push(stack, 'W');
+    push(stack, 'o');
+    push(stack, 'r');
+    push(stack, 'l');
+    push(stack, 'd');
+    push(stack, '!');
+    show(stack);
+    pop(stack);
+    pop(stack);
+    pop(stack);
+    pop(stack);
+    pop(stack);
+    pop(stack);
     
     std::cout << "\n\n\n\n";
-    stack.show();
+    show(stack);
     std::cout << "\n\n\n\n";
-    std::cout << "Size: " << stack.size() << std::endl;
-    std::cout << "Empty: " << stack.isEmpty() << std::endl;
+    std::cout << "Size: " << size(stack) << std::endl;
+    std::cout << "Empty: " << isEmpty(stack) << std::endl;
 
-    std::cout << "Top: " << stack.top() << std::endl;
-    stack.pop();
-    std::cout << "Top: " << stack.top() << std::endl;
+    std::cout << "Top: " << top(stack) << std::endl;
+    pop(stack);
+    std::cout << "Top: " << top(stack) << std::endl;
 
-    stack.clear();
+    clear(stack);
     std::cout << "\n\n\n\n";
-    stack.show();
-    std::cout << "Size: " << stack.size() << std::endl;
-    std::cout << "Empty: " << stack.isEmpty() << std::endl;
+    show(stack);
+    std::cout << "Size: " << size(stack) << std::endl;
+    std::cout << "Empty: " << isEmpty(stack) << std::endl;
 
-    std::cout << "Full: " << stack.isFull() << std::endl;
+    std::cout << "Full: " << isFull(stack) << std::endl;
 }

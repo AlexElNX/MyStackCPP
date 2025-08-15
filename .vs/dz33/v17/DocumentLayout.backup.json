@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{0BCEFA6A-A0E0-49A8-9284-61A028A936C6}|dz33\\dz33.vcxproj|solutionrelative:dz33\\dz33.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0BCEFA6A-A0E0-49A8-9284-61A028A936C6}|dz33\\dz33.vcxproj|D:\\Programming\\C\u002B\u002B Itstep\\VS\\dz33\\dz33\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0BCEFA6A-A0E0-49A8-9284-61A028A936C6}|dz33\\dz33.vcxproj|solutionrelative:dz33\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0BCEFA6A-A0E0-49A8-9284-61A028A936C6}|dz33\\dz33.vcxproj|D:\\Programming\\C\u002B\u002B Itstep\\VS\\dz33\\dz33\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0BCEFA6A-A0E0-49A8-9284-61A028A936C6}|dz33\\dz33.vcxproj|solutionrelative:dz33\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,17 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Stack.cpp",
+              "DocumentMoniker": "D:\\Programming\\C\u002B\u002B Itstep\\VS\\dz33\\dz33\\Stack.cpp",
+              "RelativeDocumentMoniker": "dz33\\Stack.cpp",
+              "ToolTip": "D:\\Programming\\C\u002B\u002B Itstep\\VS\\dz33\\dz33\\Stack.cpp",
+              "RelativeToolTip": "dz33\\Stack.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwDwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-15T04:20:32.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Stack.h",
               "DocumentMoniker": "D:\\Programming\\C\u002B\u002B Itstep\\VS\\dz33\\dz33\\Stack.h",
               "RelativeDocumentMoniker": "dz33\\Stack.h",
               "ToolTip": "D:\\Programming\\C\u002B\u002B Itstep\\VS\\dz33\\dz33\\Stack.h",
               "RelativeToolTip": "dz33\\Stack.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-15T03:50:29.497Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "dz33\\dz33.cpp",
               "ToolTip": "D:\\Programming\\C\u002B\u002B Itstep\\VS\\dz33\\dz33\\dz33.cpp",
               "RelativeToolTip": "dz33\\dz33.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-15T03:34:05.006Z",
               "EditorCaption": ""
