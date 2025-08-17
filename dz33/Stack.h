@@ -16,15 +16,15 @@ public:
 		m_grow = 5;
 	}
 
-	friend int size(const Stack&);
-	friend char top(const Stack&);
-	friend bool isEmpty(const Stack&);
-	friend bool isFull(const Stack&);
-	friend void clear(Stack&);
-	friend void resize(Stack&, int capacity);
-	friend void push(Stack&, char symbol);
-	friend void pop(Stack&);
-	friend void show(const Stack&);
+	int size();
+	char top();
+	bool isEmpty();
+	bool isFull();
+	void clear();
+	void resize(int capacity);
+	void push(char symbol);
+	void pop();
+	void show();
 
 	~Stack()
 	{
